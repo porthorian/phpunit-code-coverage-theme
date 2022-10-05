@@ -1,0 +1,111 @@
+body {
+	color: rgb(209, 205, 199);
+	background-color: rgb(24, 26, 27);
+}
+
+a {
+	color: rgb(51, 162, 255);
+}
+
+hr {
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-top-color: rgba(140, 130, 115, 0.1);
+}
+
+.breadcrumb {
+	background-color: rgb(35, 38, 39);
+}
+
+.breadcrumb-item.active {
+	color: rgb(158, 150, 137);
+}
+
+.table {
+	color: rgb(209, 205, 199);
+}
+
+.table-bordered {
+    border-color: rgb(56, 61, 63);
+}
+
+.table-bordered td, .table-bordered th {
+    border-color: rgb(56, 61, 63);
+}
+
+.table thead th {
+	border-bottom-color: rgb(56, 61, 63);
+}
+
+.table td, .table th {
+    border-top-color: rgb(56, 61, 63);
+}
+
+.table tbody tr.covered-by-large-tests, li.covered-by-large-tests, tr.success, td.success, li.success, span.success {
+    background-color: rgb(41, 60, 23);
+}
+
+.table tbody tr.warning, .table tbody td.warning, li.warning, span.warning {
+    background-color: rgb(47, 40, 5);
+}
+
+.table tbody tr.danger, .table tbody td.danger, li.danger, span.danger {
+    background-color: rgb(56, 22, 22);
+}
+
+.progress {
+    background-color: rgb(35, 38, 39);
+}
+
+.bg-success {
+    background-color: rgb(32, 134, 55) !important;
+}
+
+.bg-warning {
+    background-color: rgb(150, 112, 0) !important;
+}
+
+.bg-danger {
+    background-color: rgb(165, 29, 42) !important;
+}
+
+td span.default {
+    color: rgb(200, 196, 189);
+}
+
+td span.comment {
+    color: rgb(157, 148, 135);
+}
+
+td span.keyword {
+    color: rgb(200, 196, 189);
+}
+
+.table tbody tr.covered-by-large-tests, li.covered-by-large-tests, tr.success, td.success, li.success, span.success {
+    background-color: rgb(41, 60, 23);
+}
+
+.bs-popover-auto[x-placement^="top"] > .arrow::before, .bs-popover-top > .arrow::before {
+    border-top-color: rgba(140, 130, 115, 0.25);
+}
+
+.bs-popover-auto[x-placement^="top"] > .arrow::after, .bs-popover-top > .arrow::after {
+    border-top-color: rgb(48, 52, 54);
+}
+
+.popover {
+	text-decoration-color: initial;
+    text-shadow: none;
+    background-color: rgb(24, 26, 27);
+    border-color: rgba(140, 130, 115, 0.2);
+}
+
+.popover-header {
+	background-color: rgb(29, 31, 32);
+    border-bottom-color: rgb(54, 58, 60);
+}
+
+.popover-body {
+	color: rgb(209, 205, 199);
+}
