@@ -10,7 +10,7 @@ Edit your composer.json to something like this to make it happen in 1 solid moti
 
 ```
 "scripts": {
-        "cover": "vendor/bin/phpunit && cp -f tests/custom.css .phpunit.cache/html/_css/custom.css",
+        "cover": "vendor/bin/phpunit ; curl -s https://raw.githubusercontent.com/Porthorian/phpunit-code-coverage-theme/main/custom.css -o .phpunit.cache/html/_css/custom.css",
     },
 ```
 
